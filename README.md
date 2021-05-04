@@ -6,6 +6,7 @@
 
 ```ts
 import * as charCodes from "https://deno.land/x/charcodes@0.1.0/mod.ts";
+
 const dot = charCodes.dot;
 console.log(dot); // 46
 
