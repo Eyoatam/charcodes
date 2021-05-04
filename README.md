@@ -1,6 +1,6 @@
 # charcodes
 
-> Char codes utility for deno
+> charcodes utility for deno
 
 # Example
 
