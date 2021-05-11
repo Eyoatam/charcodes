@@ -99,10 +99,27 @@ export const verticalBar = 124; //  '|'
 export const rightCurlyBrace = 125; //  '}'
 export const tilde = 126; //  '~'
 export const nonBreakingSpace = 160;
-// deno-lint-ignore no-irregular-whitespace
 export const oghamSpaceMark = 5_760; // ' '
 export const lineSeparator = 8_232;
 export const paragraphSeparator = 8_233;
+export const characterTabulation = 9;
+export const lineTabulation = 11;
+export const formFeed = 12;
+export const enQuad = 8_192;
+export const emQuad = 8_193;
+export const enSpace = 8_194;
+export const emSpace = 8_195;
+export const threePerEmSpace = 8_196;
+export const fourPerEmSpace = 8_197;
+export const sixPerEmSpace = 8_198;
+export const figureSpace = 8_199;
+export const punctuationSpace = 8_200;
+export const thinSpace = 8_201;
+export const hairSpace = 8_202;
+export const narrowNoBreakSpace = 8_239;
+export const mediumMathemiticalSpace = 8_287;
+export const ideographicSpace = 12_288;
+export const zeroWidthNonBreakingSpace = 65_279;
 
 export function isDigit(code: number): boolean {
   return code >= digit0 && code <= digit9;
