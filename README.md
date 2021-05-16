@@ -23,6 +23,16 @@ const backslash = charCodes.backslash;
 console.log(charCodes.isAlphabet(backslash)); // false
 ```
 
+for the above example the output will be
+
+```bash
+46
+true
+false
+true
+false
+```
+
 ```bash
 deno run https://deno.land/x/charcodes@0.1.0/example/example.ts
 ```
